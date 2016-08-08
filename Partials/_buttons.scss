@@ -1,0 +1,73 @@
+// .section__title 
+button{
+		color:black;
+		border:2px solid black;
+		padding:5px 10px;
+		background: #f6f6f6;
+		width:100px;
+		font-size:12px;
+		text-transform:uppercase;
+		display:inline;
+		transition:0.2s;
+		margin:20px 2px;
+
+		&:hover{
+			color:white;
+			background: $accentColor;
+			border:2px solid $accentColor;
+		}
+	}
+
+.blog button{
+	padding:5px 10px;
+	background: $darkSection;
+	width:100px;
+	font-size:12px;
+	text-transform:uppercase;
+	display:inline;
+	transition:0.2s;
+	margin:20px 2px;
+	color:$accentColor;
+	border:2px solid $accentColor;
+
+	&:hover{
+		background:$accentColor;
+		color:$darkSection;
+	}
+}
+
+.blog .load__more{
+	background:$darkSection;
+	color:grey;
+	border:2px solid grey;
+	margin:50px 45%;
+
+	&:hover{
+		border:2px solid $accentColor;
+		color:$darkSection;
+	}
+
+}
+
+input[type="submit"]{
+	padding:5px 10px;
+	width:100px;
+	font-size:12px;
+	text-transform:uppercase;
+	display:inline;
+	transition:0.2s;
+	margin:20px 2px;
+	background: $accentColor;
+	border:2px solid $accentColor;
+	color:white;
+
+		&:hover{
+		color:black;
+		border:2px solid black;
+		background: white;
+	}
+}
+
+button.read__more{
+	background:white;
+}

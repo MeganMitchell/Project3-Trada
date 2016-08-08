@@ -1,0 +1,114 @@
+p{
+	font-family: 'Lora', serif;
+	letter-spacing:1px;
+	font-size:0.9rem;
+	color:#4a4a4a;
+	line-height:20px;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.5rem;
+	color:white;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	// border:1px solid blue;
+	margin:0;
+
+	.color{
+		color: $accentColor;
+	}
+
+}
+h2{
+	font-family: 'Trirong', serif;
+	color:white;
+	font-weight:lighter;
+	font-size:1.3rem;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	text-align:center;
+	margin:0;
+	padding:0;
+
+	// &:after{
+	// content: "";
+ //    position: absolute;
+ //    background-color: grey;
+ //    height: 2px;
+ //    width: 80px;
+ //    top: 10px;
+ //    bottom: 10px;
+	// }
+}
+.section__title{
+	// border:1px solid purple;
+	display:flex;
+	position:relative;
+	align-items:center;
+	flex-direction:column;
+	text-align:center;
+
+	.afterElement{
+		width:90px;
+		// border:1px solid red;
+		margin-bottom:10px;
+	}
+
+	.title__icon{
+		background: $accentColor;
+		height:50px;
+		width:50px;
+		border-radius:50%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		position:relative;
+		top:-20px;
+		}
+}
+
+h3{
+	text-transform:uppercase;
+	font-size:1rem;
+	letter-spacing:2px;
+
+
+}
+
+h4{
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin:0;
+	padding:0;
+}
+h5{
+	text-transform:uppercase;
+	margin:0;
+	padding:10px;
+}
+h6{
+	font-style: italic;
+	color:grey;
+	margin:0;
+	padding:0;
+}
+// p{
+// 	font-family: 'Droid Sans', sans-serif;
+// }
+
+header{
+	background:url(./images/hero.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:90vh;
+	display:flex;
+	position: relative;
+	align-items:center;
+	justify-content:center;
+
+}
+.header_text{
+	display:flex;
+	flex-direction:column;
+
+}

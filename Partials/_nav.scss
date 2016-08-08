@@ -1,0 +1,111 @@
+nav{
+	// border:1px solid red;
+	display:flex;
+	// justify-content:space-around;
+	align-items:center;
+	font-family: 'Droid Sans', sans-serif;
+	color:white;
+	text-transform:uppercase;
+	padding:10px 20px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+nav .third{
+	// border:1px solid blue;
+	
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		display:flex;
+		justify-content:space-between;
+		// border:1px solid green;
+
+
+		li{
+			font-size:0.8rem;
+			padding:5px 10px;
+			height:30px;
+			width:100%;
+			text-align:center;
+			transition:0.2s;
+			// border:1px solid red;
+		}
+
+		li:hover{
+			border:2px solid $accentColor;
+			color: $accentColor;
+		}
+	}
+
+}
+
+.logo{
+	font-size:1.2rem;
+	letter-spacing:1px;
+	border:3px solid $accentColor;
+	padding:3px 5px;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+
+.nav__icons {
+	display:flex;
+	width:10%;
+	justify-content:space-between;
+	font-size:1.2rem;
+	transition:0.2s;
+
+	:hover{
+		color: $accentColor;
+	}
+}
+
+// _______________gallery nav______________________
+.our_works ul{
+	// border:1px solid blue;
+	list-style-type:none;
+	margin:40px 0;
+	padding:0;
+	display:flex;
+	justify-content:space-between;
+	border-radius:50px;
+	color:white;
+	text-transform:uppercase;
+	font-size:0.7rem;
+	letter-spacing:1px;
+	overflow: hidden;
+	width:500px;
+
+	li{
+		// border:1px solid red;
+		padding:5px 10px;
+		background:$darkSection;
+		width:98px;
+		transition:0.2s;
+
+		&:hover{
+			background:$accentColor;
+		}
+
+	}
+}
+
+.hamburger {
+  display: none;
+  color: black;
+  cursor: pointer;
+  position:fixed;
+  top:5px;
+  left:5px;
+  z-index:10;
+  font-size:20px;
+
+}
+.visible {
+  display: block;
+}
